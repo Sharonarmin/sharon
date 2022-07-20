@@ -46,7 +46,6 @@ $(document).ready(function(){
 		
 	var mail_obj={
 		name:fname+' '+lname,
-		subj:subj,
 		mail:mail,
 		msg:msg
 	};

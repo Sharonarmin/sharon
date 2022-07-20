@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+  height: 100%;
+  overflow: hidden;
+}
 
 
 
@@ -239,6 +243,7 @@ nav ul li a:hover {
 /* social media */
 
 .social-media{
+  z-index: 2;
   position: absolute;
   bottom: 80px;
   left: 80px;
@@ -259,7 +264,7 @@ nav ul li a:hover {
 
 
 .sm-circle i{
-  font-size: 18px;
+  font-size: 22px;
   text-decoration: none;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -270,15 +275,15 @@ nav ul li a:hover {
 
 @media screen and (max-width: 770px) {
   .social-media{
-    bottom: 40px;
-    left: 40px;
+    bottom: 20px;
+    left: 10px;
   }
   .sm-circle{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
   .sm-circle i{
-    font-size: 16px;
+    font-size: 20px;
   }
   
 }
@@ -429,7 +434,6 @@ button:hover{
 
 .work-card{
   position: relative;
-  top: 40px;
   padding: 5px 30px;
   background-color: #c5c5ca6e;
   border-radius: 30px;
@@ -467,9 +471,6 @@ button:hover{
   height: 180px !important;
 }
 
-.work-slider-mob-section{
-  padding-top: 65%;
-}
 
 
 .text-center{
@@ -483,15 +484,6 @@ button:hover{
 
 
 
-/* ipad air */
-
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
-  .work-card {
-    position: relative;
-    top: 240px;
-
-}
-}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .work-slider-img img {
@@ -522,7 +514,6 @@ button:hover{
 
 .about-sec{
   position: relative;
-  top: 200px;
   padding: 30px 60px;
 
 }
@@ -560,3 +551,6 @@ button:hover{
 }
 
 
+a{
+  text-decoration: none;
+}

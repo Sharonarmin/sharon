@@ -48,7 +48,7 @@
     color2:  0x1e1e22,
     colorMode: "lerp",
     birdSize: 1.40,
-    wingSpan: 30.00,
+    wingSpan: 20.00,
     quantity: 2.00
     })
 

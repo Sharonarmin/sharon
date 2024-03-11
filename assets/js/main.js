@@ -39,17 +39,17 @@
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
-    minHeight: 100.00,
-    minWidth: 100.00,
+    minHeight: 150.00,
+    minWidth: 150.00,
     scale: 1.00,
     scaleMobile: 1.00,
     backgroundColor: 0xf6f6f6,
     color1: 0x969699,
     color2:  0x1e1e22,
     colorMode: "lerp",
-    birdSize: 1.40,
-    wingSpan: 1.00,
-    quantity: 1.00
+    birdSize: 2.40,
+    wingSpan: 2.00,
+    quantity: 2.00
     })
 
 
